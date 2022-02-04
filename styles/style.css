@@ -3,6 +3,7 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: auto;
+  
 }
 
 .header {
@@ -21,6 +22,8 @@
 }
 
 .logo {
+  width: 196px;
+  height: 60px;
 }
 
 .nav-links {
@@ -40,17 +43,20 @@
   font-weight: 500;
   line-height: 76px;
   margin: 150px 0 0;
+  max-width: 544px;
 }
 
 .header__description {
   font-size: 20px;
   line-height: 30px;
   margin: 32px 0 0;
+  max-width: 465px;
 }
 
 .header__image {
   /* Write styles here */
   z-index: 1;
+  max-width: 636px;
 }
 
 .header__footer {
@@ -104,6 +110,8 @@
   border-radius: 6px;
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
+  width: 360px;
+  height: 420px;
 }
 
 .card__content {
@@ -174,6 +182,8 @@
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 12px;
+  width: 24px;
+  height: 24px;
 }
 
 .event-info__icon_calendar {
@@ -319,6 +329,7 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
+  max-width: 154px;
 }
 
 .about__content {
