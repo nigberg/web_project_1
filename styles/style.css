@@ -48,6 +48,9 @@
 }
 
 /* Add the hover state styles for .nav__link here */
+.nav__link:hover{
+  color:#1f69c9;
+}
 
 .header__title {
   font-size: 66px;
@@ -91,6 +94,9 @@
 }
 
 /* Add the hover state styles for .header__link here */
+.header__link:hover{
+  color:#1f69c9;
+}
 
 .header__address {
   color: #838383;
