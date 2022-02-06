@@ -36,6 +36,7 @@
 .nav-links {
   margin-top: 8px;
   display: flex;
+  flex-direction: row;
   align-items: center;
   column-gap: 20px;
 }
@@ -65,6 +66,9 @@
 
 .header__image {
   /* Write styles here */
+  position: absolute;
+  top: 135px;
+  right: 20px;
   z-index: 1;
   max-width: 636px;
 }
