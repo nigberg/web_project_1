@@ -7,6 +7,7 @@
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
+  
 }
 
 .header {
@@ -22,7 +23,7 @@
 
 
 .nav {
-  /* Add flex properties here */
+  
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -49,7 +50,7 @@
   font-weight: bold;
 }
 
-/* Add the hover state styles for .nav__link here */
+
 .nav__link:hover{
   color:#1f69c9;
 }
@@ -75,7 +76,7 @@
 }
 
 .header__image {
-  /* Write styles here */
+  
   position: absolute;
   top: 135px;
   right: 20px;
@@ -100,7 +101,7 @@
   text-decoration: none;
 }
 
-/* Add the hover state styles for .header__link here */
+
 .header__link:hover{
   color:#1f69c9;
 }
@@ -130,7 +131,7 @@
   margin: 24px 0 0;
 }
 
-/* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
+
 .staff__cards{
   margin: auto;
   margin-top: 68px;
@@ -182,11 +183,14 @@
   padding: 100px 0 120px 80px;
   display: flex;
   align-items: start;
+  justify-content: space-between;
   box-sizing: border-box;
+  
 }
 
 .events__content {
   flex-basis: 580px;
+  flex-shrink: 1;
 }
 
 .events__heading {
@@ -247,7 +251,7 @@
   text-decoration: none;
 }
 
-/* Add the hover state styles for .events__more here */
+
 .events__more:hover{
   color:#1f69c9;
 }
@@ -256,7 +260,8 @@
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 780px;
-  position: relative; 
+  position: relative;
+  
 }
 
 .events__image {
@@ -273,31 +278,31 @@
 }
 
 .person_name_feynman {
-  /* Use correct values of top/right/bottom/left properties to position the element */
+ 
   top: -30px;
   left: 319px;
 }
 
 .person_name_burbidge {
-  /* Use correct values of top/right/bottom/left properties to position the element */
+  
   top: 96px;
   right: 125px;
 }
 
 .person_name_cannon {
-  /* Use correct values of top/right/bottom/left properties to position the element */
+  
   bottom: 18px;
   right: 216px;
 }
 
 .person_name_mitchell {
-  /* Use correct values of top/right/bottom/left properties to position the element */
+  
   bottom: 82px;
   left: 142px;
 }
 
 .person_name_tarter {
-  /* Use correct values of top/right/bottom/left properties to position the element */
+  
   top: 79px;
   left: 159px;
 }
@@ -343,7 +348,7 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  /* Add styles */
+  
   display: flex;
   justify-content: center;
   gap: 40px;
@@ -351,7 +356,7 @@
 }
 
 .step {
-  /* Add styles */
+  
   flex-basis: 220px;
 }
 
@@ -451,7 +456,7 @@
 }
 
 .footer__list {
-  /* The code below removes the default browser styles for lists */
+  
   list-style-type: none;
   padding: 0;
   margin: 0;
