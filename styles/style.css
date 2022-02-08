@@ -1,4 +1,5 @@
-/* Add your class here */
+@import url("normalize.css");
+
 .page{
   min-width: 1100px;
   max-width: 1600px;
@@ -18,6 +19,7 @@
   position: relative;
   box-sizing: border-box;
 }
+
 
 .nav {
   /* Add flex properties here */
@@ -58,6 +60,8 @@
   line-height: 76px;
   margin: 150px 0 0;
   max-width: 544px;
+  position: relative;
+  z-index: 1;
 }
 
 .header__description {
@@ -65,6 +69,9 @@
   line-height: 30px;
   margin: 32px 0 0;
   max-width: 465px;
+  position: relative;
+  z-index: 1;
+  
 }
 
 .header__image {
@@ -72,7 +79,7 @@
   position: absolute;
   top: 135px;
   right: 20px;
-  z-index: 1;
+  
   max-width: 636px;
 }
 
@@ -382,6 +389,7 @@
   font-weight: 500;
   max-width: 154px;
   z-index: 1;
+  margin: 0;
 }
 
 .about__content {
@@ -398,6 +406,7 @@
 
 .about__paragraph {
   z-index: 1;
+  margin: 0;
 }
 
 .about__circle {
