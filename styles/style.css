@@ -7,7 +7,6 @@
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
-  
 }
 
 .header {
@@ -23,12 +22,10 @@
 
 
 .nav {
-  
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .logo {
@@ -72,15 +69,12 @@
   max-width: 465px;
   position: relative;
   z-index: 1;
-  
 }
 
 .header__image {
-  
   position: absolute;
   top: 135px;
   right: 20px;
-  
   max-width: 636px;
 }
 
@@ -185,7 +179,6 @@
   align-items: start;
   justify-content: space-between;
   box-sizing: border-box;
-  
 }
 
 .events__content {
@@ -261,7 +254,6 @@
   flex-shrink: 0;
   flex-basis: 780px;
   position: relative;
-  
 }
 
 .events__image {
@@ -274,59 +266,54 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 10px; 
+  gap: 10px;
 }
 
 .person_name_feynman {
- 
   top: -30px;
   left: 319px;
 }
 
 .person_name_burbidge {
-  
   top: 96px;
   right: 125px;
 }
 
 .person_name_cannon {
-  
   bottom: 18px;
   right: 216px;
 }
 
 .person_name_mitchell {
-  
   bottom: 82px;
   left: 142px;
 }
 
 .person_name_tarter {
-  
   top: 79px;
   left: 159px;
 }
 
 .person__image {
-  max-width: 100%; 
+  max-width: 100%;
 }
 
 .person__image_size_l {
-  width: 140px; 
+  width: 140px;
 }
 
 .person__image_size_m {
-  width: 100px; 
+  width: 100px;
 }
 
 .person__image_size_s {
-  width: 80px; 
+  width: 80px;
 }
 
 .person__caption {
   text-align: center;
   font-size: 14px;
-  margin: 0; 
+  margin: 0;
 }
 
 .membership {
@@ -348,15 +335,12 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  
   display: flex;
   justify-content: center;
   gap: 40px;
-  
 }
 
 .step {
-  
   flex-basis: 220px;
 }
 
@@ -406,7 +390,6 @@
   flex-direction: column;
   justify-content: center;
   gap: 32px;
-  
 }
 
 .about__paragraph {
@@ -429,7 +412,6 @@
   background-color: #1f1f1f;
   color: #ffffff;
   padding: 57px 102px 60px 80px;
-  
 }
 
 .footer__columns {
@@ -443,12 +425,10 @@
 .footer__column_hours {
   margin-right: 100px;
   margin-left: auto;
-  
 }
 
 .footer__column_social {
   margin: 0;
-  
 }
 
 .footer__logo {
@@ -456,24 +436,18 @@
 }
 
 .footer__list {
-  
   list-style-type: none;
   padding: 0;
   margin: 0;
-  
-  
 }
 
 .footer__list-item {
   margin-top: 30px;
   margin-bottom: 0;
-  
-  
 }
 
 .footer__column-heading {
   margin: 0;
-  
 }
 
 .footer__column-link {
@@ -495,5 +469,5 @@
 }
 
 .footer__copyrights {
-  margin: 0;
+  margin: 120px 0 0;
 }
